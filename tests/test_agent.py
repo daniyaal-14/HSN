@@ -7,10 +7,10 @@ from unittest.mock import Mock, patch
 # Add src to path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
 
-from src.hsn_agent_simple import HSNAgent
+from src.agent import HSNAgent
 from src.data_handler import HSNDataHandler
-from src.hsn_validator import HSNValidator
-from src.hsn_suggester import HSNSuggester
+from src.validator import HSNValidator
+from src.suggester import HSNSuggester
 
 class TestHSNAgent(unittest.TestCase):
     """Test cases for HSN Agent functionality"""

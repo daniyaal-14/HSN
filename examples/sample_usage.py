@@ -7,7 +7,7 @@ project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, project_root)
 
 # Now import should work
-from src.hsn_agent_simple import HSNAgentSimple as HSNAgent
+from src.agent import HSNAgentSimple as HSNAgent
 import json
 
 def demo_hsn_agent():
